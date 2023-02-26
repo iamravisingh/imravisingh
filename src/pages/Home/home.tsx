@@ -1,4 +1,5 @@
-import { Header } from "../../components/Header"
+import { Header } from "../../components/Header";
+import { Footer } from "../../components/Footer";
 import { Profile } from "./component"
 import "./style.css";
 
@@ -9,6 +10,7 @@ export const Home = () => {
             <section>
                 <Profile/>
             </section>
+            <Footer/>
         </div>
     )
 }
