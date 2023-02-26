@@ -12,9 +12,9 @@ export const Profile = () => {
         knockout, ReactQuery, Node, Express I have worked for different
         companies with different domains ( SaaS, PaaS, ECommerce, Service,
         Product ). Geek and passionate in javascript who loves to dig down into
-        core-concept. **If you feel coding is hard, you are doing something
-        wrong**.
+        core-concept. 
       </p>
+      <sub>**If you feel coding is hard, you are doing something wrong**.</sub>
     </div>
   );
 };

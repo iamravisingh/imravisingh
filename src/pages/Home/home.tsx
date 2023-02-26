@@ -6,11 +6,9 @@ import "./style.css";
 export const Home = () => {
     return (
         <div className="container">
-            <Header/>
             <section>
                 <Profile/>
             </section>
-            <Footer/>
         </div>
     )
 }
