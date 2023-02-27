@@ -33,13 +33,13 @@ jobs:
       - name: Setup Node 16.x
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 18.X
           cache: npm
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Rebuild the dist/ directory
+      - name: Build
         run: npm run build  
       - name: Setup Pages
         uses: actions/configure-pages@v3
@@ -47,7 +47,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: '.'
+          path: './dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
