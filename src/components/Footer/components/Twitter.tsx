@@ -3,7 +3,7 @@ export const Twitter = () => {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 512 512"
       aria-label="Ravi Singh's Twitter"
       width="1.5rem"

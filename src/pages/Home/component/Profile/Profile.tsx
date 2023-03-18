@@ -5,7 +5,7 @@ export const Profile = () => {
       <legend>I am a passionate "Javascript Developer"</legend>
       <p>
         I'm a self-taught Javascript Developer with more than 5yrs of experience
-        in frontend development with relevant experience in backend.
+        in frontend development with relevant experience in backend(Node.js).
       </p>
       <p>
         Tech which I have worked on Typescript, React, Mobx, Vanilla JS,

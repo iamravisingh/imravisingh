@@ -3,7 +3,7 @@ export const Github = () => {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 496 512"
       aria-label="Ravi Singh's Github"
       width="1.5em"

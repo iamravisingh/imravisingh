@@ -1,12 +1,29 @@
 header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     align-items: center;
     gap: 10px;
     width: 100%;
+    font-size: 18px;
+    color: white;
 }
 
-header > a{
+
+.header-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+ 
+
+.header-menu > a{
     text-decoration: none;
     font-size: 18px;
     color: white;
@@ -16,4 +33,12 @@ header > a{
 
 a:hover{
     text-decoration: underline
+}
+
+.name > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
 }
